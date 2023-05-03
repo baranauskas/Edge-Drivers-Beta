@@ -189,3 +189,8 @@ zigbeeManufacturer:
     manufacturer: _TZ3000_cjrngdr3
     model: TS011F
     deviceProfileName: switch-power-energy-plug
+  - id: "TS011F/_TZ3000_idrffznf"
+    deviceLabel: TS011F Plug
+    manufacturer: _TZ3000_idrffznf
+    model: TS011F
+    deviceProfileName: switch-power-energy-plug
