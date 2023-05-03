@@ -1,0 +1,37 @@
+name: power-meter-temp
+components:
+- id: main
+  capabilities:
+  - id: powerMeter
+    version: 1
+  - id: energyMeter
+    version: 1
+  - id: temperatureMeasurement
+    version: 1
+  - id: firmwareUpdate
+    version: 1
+  - id: refresh
+    version: 1
+  categories:
+  - name: CurbPowerMeter
+preferences:
+  - preferenceId: tempOffset
+    explicit: true 
+  - name: "simpleMeteringDivisor"
+    title: "Simple Metering Divisor key"
+    description: "Simple Metering Divisor for Energy or Instantaneus Power Calculation (default: 1000)"
+    required: false
+    preferenceType: number
+    definition:
+      minimum: 1
+      maximum: 10000000
+      default: 1000
+  - name: "electricalMeasureDivisor"
+    title: "Electrical Measure Divisor key"
+    description: "Electrical Measure Divisor for Active Power Calculation (default: 1000)"
+    required: false
+    preferenceType: number
+    definition:
+      minimum: 1
+      maximum: 1000000
+      default: 1000

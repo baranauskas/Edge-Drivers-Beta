@@ -4,6 +4,11 @@ zigbeeManufacturer:
     manufacturer: _TZ3000_kdi2o9m6
     model: TS011F
     deviceProfileName: single-switch-plug
+  - id: "LIDL Plug/HG06337-FR"
+    deviceLabel: Lidl Plug
+    manufacturer: _TZ3000_wamqdr3f
+    model: TS011F
+    deviceProfileName: single-switch-plug
   - id: "MOES/MS-104Z"
     deviceLabel: Moes Switch
     manufacturer: _TZ3000_zmy1waw6
@@ -129,11 +134,6 @@ zigbeeManufacturer:
     manufacturer: _TZ3000_oiymh3qu
     model: TS011F
     deviceProfileName: single-switch
-  #- id: "IKEA/TRADFRI on/off switch"
-  #  deviceLabel: IKEA on/off switch
-  #  manufacturer: IKEA of Sweden
-  #  model: TRADFRI on/off switch
-  #  deviceProfileName: single-switch
   - id: "_TYZB01_phjeraqq/Switch"
     deviceLabel: TS0001 Switch
     manufacturer: _TYZB01_phjeraqq
@@ -302,5 +302,200 @@ zigbeeManufacturer:
   - id: "_TZ3000_rmjr4ufz/Switch"
     deviceLabel: Smart Switch
     manufacturer: _TZ3000_rmjr4ufz
+    model: TS0001
+    deviceProfileName: single-switch
+  - id: "SONOFF/S26R2ZB"
+    deviceLabel: SONOFF Switch
+    manufacturer: SONOFF
+    model: S26R2ZB
+    deviceProfileName: single-switch-plug
+  - id: "MLI/Smart Socket"
+    deviceLabel: MLI Switch
+    manufacturer: MLI
+    model: Smart Socket
+    deviceProfileName: single-switch-plug
+  - id: "Centralite Systems/4200-C"
+    deviceLabel: Centralite Outlet
+    manufacturer: Centralite Systems
+    model: 4200-C
+    deviceProfileName: single-switch-plug
+  - id: "MOES/MS-104ZL"
+    deviceLabel: Moes MS-104ZL Switch
+    manufacturer: _TZ3000_zzoangmc
+    model: TS0011
+    deviceProfileName: single-switch
+  - id: "TS011F/_TZ3000_r6buo8ba"
+    deviceLabel: TS011F Plug
+    manufacturer: _TZ3000_r6buo8ba
+    model: TS011F
+    deviceProfileName: single-switch-plug
+  - id: "PLUG COMPACT EU T/LEDVANCE"
+    deviceLabel: PLUG COMPACT EU T
+    manufacturer: LEDVANCE
+    model: PLUG COMPACT EU T
+    deviceProfileName: single-switch-plug
+  - id: "Plug Value/LEDVANCE"
+    deviceLabel: Plug Value
+    manufacturer: LEDVANCE
+    model: Plug Value
+    deviceProfileName: single-switch-plug
+  - id: "TS011F/_TZ3000_pnzfdr9y"
+    deviceLabel: TS0101 Plug
+    manufacturer: _TZ3000_pnzfdr9y
+    model: TS0101
+    deviceProfileName: single-switch-plug
+  - id: "TS0001/_TZ3000_m0btfbt7"
+    deviceLabel: TS0001 Plug
+    manufacturer: _TZ3000_m0btfbt7
+    model: TS0001
+    deviceProfileName: single-switch-plug
+  - id: "TS011F/_TZ3000_pmz6mjyu"
+    deviceLabel: TS011F Plug
+    manufacturer: _TZ3000_pmz6mjyu
+    model: TS011F
+    deviceProfileName: single-switch-plug
+  - id: "SONOFF/S40LITE"
+    deviceLabel: SONOFF Switch
+    manufacturer: SONOFF
+    model: S40LITE
+    deviceProfileName: single-switch-plug
+  - id: "TS0011/_TZ3000_ilauzyjm"
+    deviceLabel: TS0011 Switch
+    manufacturer: _TZ3000_ilauzyjm
+    model: TS0011
+    deviceProfileName: single-switch
+  - id: "TS0001/_TZ3000_5ng23zjs"
+    deviceLabel: TS0001 Switch
+    manufacturer: _TZ3000_5ng23zjs
+    model: TS0001
+    deviceProfileName: single-switch
+  - id: "_TZ3000_mx3vgyea/TS000F"
+    deviceLabel: TS000F Plug
+    manufacturer: _TZ3000_mx3vgyea
+    model: TS000F
+    deviceProfileName: single-switch-plug
+  - id: "LUMI/lumi.plug"
+    deviceLabel: LUMI plug
+    manufacturer: LUMI
+    model: lumi.plug
+    deviceProfileName: single-switch-plug
+  - id: "TS0001/_TZ3000_q6a3tepg"
+    deviceLabel: TS0001 Switch
+    manufacturer: _TZ3000_q6a3tepg
+    model: TS0001
+    deviceProfileName: single-switch
+  - id: "3A SMart/LXN56-0S27LX1.3"
+    deviceLabel: 3A SMart Switch
+    manufacturer: 3A SMart Home DE
+    model: LXN56-0S27LX1.3
+    deviceProfileName: single-switch-plug
+  - id: "3A SMart/LXN-1S27LX1.0"
+    deviceLabel: 3A SMart Switch
+    manufacturer: 3A SMart Home DE
+    model: LXN-1S27LX1.0
+    deviceProfileName: single-switch
+  - id: "TS0001/_TZ3000_ajv2vfow"
+    deviceLabel: TS0001 Switch
+    manufacturer: _TZ3000_ajv2vfow
+    model: TS0001
+    deviceProfileName: single-switch
+  - id: "Orvibo/Switch"
+    deviceLabel: Orvibo Switch
+    manufacturer: 欧瑞博
+    model: 545df2981b704114945f6df1c780515a
+    deviceProfileName: single-switch
+  - id: "LUMI/lumi.switch.b1laus01"
+    deviceLabel: Aqara Smart Wall Switch (No Neutral, Single Rocker)
+    manufacturer: LUMI
+    model: lumi.switch.b1laus01
+    deviceProfileName: single-switch
+  - id: "TS0101 /_TZ3000_br3laukf"
+    deviceLabel: TS0101 Switch
+    manufacturer: _TZ3000_br3laukf
+    model: TS0101
+    deviceProfileName: single-switch-plug
+  - id: "Philips Hue/LOM005"
+    deviceLabel: Philips Hue Plug
+    manufacturer: Signify Netherlands B.V.
+    model: LOM005
+    deviceProfileName: single-switch-plug
+  - id: "Quirky/Smart Switch"
+    deviceLabel: Smart Switch
+    manufacturer: Quirky
+    model: Smart Switch
+    deviceProfileName: single-light-endpoint2
+  - id: "Interfree/XSSW1O"
+    deviceLabel: Interfree 1 Switch
+    manufacturer: Interfree
+    model: XSSW1O
+    deviceProfileName: single-switch
+  - id: "Interfree/UPSK1O"
+    deviceLabel: Interfree 1 Plug
+    manufacturer: Interfree
+    model: UPSK1O
+    deviceProfileName: single-switch-plug
+  - id: "Philips Hue Plug/LOM010"
+    deviceLabel: Philips Hue Plug
+    manufacturer: Signify Netherlands B.V.
+    model: LOM010
+    deviceProfileName: single-switch-plug
+  - id: "_TZ3000_0t4zjtia/TS0001"
+    deviceLabel: TS0001 Switch
+    manufacturer: _TZ3000_0t4zjtia
+    model: TS0001
+    deviceProfileName: single-switch
+  - id: "_TZ3000_upjrsxh1/TS011F"
+    deviceLabel: Lidl Plug
+    manufacturer: _TZ3000_upjrsxh1
+    model: TS011F
+    deviceProfileName: single-switch-plug
+  - id: "Third Reality/3RSS007Z"
+    deviceLabel: Third Reality 3RSS007Z
+    manufacturer: Third Reality, Inc
+    model: 3RSS007Z
+    deviceProfileName: switch-battery-light
+  - id: "Third Reality/3RSS008Z"
+    deviceLabel: Third Reality 3RSS008Z
+    manufacturer: Third Reality, Inc
+    model: 3RSS008Z
+    deviceProfileName: switch-battery-light
+  - id: "LIDL Plug/_TZ3000_ynmowqk2"
+    deviceLabel: Lidl Plug
+    manufacturer: _TZ3000_ynmowqk2
+    model: TS011F
+    deviceProfileName: single-switch-plug
+  - id: "SONOFF/ZBMINIL2"
+    deviceLabel: SONOFF Switch
+    manufacturer: SONOFF
+    model: ZBMINIL2
+    deviceProfileName: single-switch
+  - id: "_TZ3000_jcqs2mrv/Switch"
+    deviceLabel: Smart Switch
+    manufacturer: _TZ3000_jcqs2mrv
+    model: SM0001
+    deviceProfileName: single-switch
+  - id: "Lumi Vietnam/LM-SZ1"
+    deviceLabel: LM-SZ1 Switch
+    manufacturer: Lumi Vietnam
+    model: LM-SZ1
+    deviceProfileName: single-switch
+  - id: "sengled/E1C-NB6"
+    deviceLabel: sengled Plug
+    manufacturer: sengled
+    model: E1C-NB6
+    deviceProfileName: single-switch-plug
+  - id: "CentraLite/4256050-ZHAC"
+    deviceLabel: CentraLite Plug
+    manufacturer: CentraLite Systems
+    model: 4256050-ZHAC
+    deviceProfileName: single-switch-plug
+  - id: "TS011F/_TZ3000_2xlvlnez"
+    deviceLabel: TS011F Plug
+    manufacturer: _TZ3000_2xlvlnez
+    model: TS011F
+    deviceProfileName: single-switch-plug
+  - id: "_TZ3000_gjrubzje/TS0001"
+    deviceLabel: TS0001 Switch
+    manufacturer: _TZ3000_gjrubzje
     model: TS0001
     deviceProfileName: single-switch

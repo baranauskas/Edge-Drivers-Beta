@@ -15,7 +15,7 @@ components:
 preferences:
   - name: "simpleMeteringDivisor"
     title: "Simple Metering Divisor key"
-    description: "Simple Metering Divisor for Power Calculation (default: 1000)"
+    description: "Simple Metering Divisor for Energy or Instantaneus Power Calculation (default: 1000)"
     required: false
     preferenceType: number
     definition:
@@ -24,7 +24,7 @@ preferences:
       default: 1000
   - name: "electricalMeasureDivisor"
     title: "Electrical Measure Divisor key"
-    description: "Electrical Measure Divisor for Energy Calculation (default: 10000)"
+    description: "Electrical Measure Divisor for Active Power Calculation (default: 10000)"
     required: false
     preferenceType: number
     definition:

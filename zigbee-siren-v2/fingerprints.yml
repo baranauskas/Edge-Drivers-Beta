@@ -34,3 +34,14 @@ zigbeeManufacturer :
     manufacturer : Sercomm Corp.
     model : SZ-SRN12N
     deviceProfileName : basic-alarm
+  # added frient heat alarm
+  - id: "frient/HESZB-120"
+    deviceLabel: frient Heat Detector
+    manufacturer: frient A/S
+    model: HESZB-120
+    deviceProfileName: temp-alert-alarm-battery
+  - id : Develco/SIRZB-110
+    deviceLabel : Develco Siren
+    manufacturer : Develco Products A/S
+    model : SIRZB-110
+    deviceProfileName : switch-alarm
