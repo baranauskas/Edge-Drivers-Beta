@@ -151,7 +151,7 @@ zigbeeManufacturer:
     deviceProfileName: two-switch
   - id: "E220-KR3N0Z0-HA"
     deviceLabel: MultiPlug
-    manufacturer: 
+    manufacturer:
     model: E220-KR3N0Z0-HA
     deviceProfileName: three-outlet
   - id: "3A Smart/LXN-3S27LX1.0"
@@ -639,6 +639,11 @@ zigbeeManufacturer:
     manufacturer: _TZ3000_jak16dll
     model: TS011F
     deviceProfileName: two-switch-power-energy-1
+  - id: "NovaDigital/TZ3000_fawk5xjv"
+    deviceLabel: NovaDigital TZ3000 Switch
+    manufacturer: _TZ3000_fawk5xjv
+    model: TS0003
+    deviceProfileName: three-switch
 
     # level devices
   - id: "TS110E/_TZ3210_pagajpog"
